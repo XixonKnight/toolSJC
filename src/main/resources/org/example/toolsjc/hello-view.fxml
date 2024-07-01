@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="myPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.toolsjc.HelloController">
+    <children>
+        <Label layoutX="23.0" layoutY="21.0" text="Số căn cước công dân:*" />
+        <TextField id="txt_cccd" fx:id="txtCCCD" layoutX="23.0" layoutY="38.0" />
+        <Label layoutX="190.0" layoutY="21.0" text="Họ và tên" />
+        <TextField id="txt_full_name" fx:id="txtFullName" layoutX="190.0" layoutY="38.0" />
+        <TextField id="txt_email" fx:id="txtEmail" layoutX="357.0" layoutY="38.0" />
+        <Label layoutX="357.0" layoutY="21.0" text="Email:" />
+        <TextField id="txt_phone" fx:id="txtPhone" layoutX="23.0" layoutY="96.0" />
+        <Label layoutX="23.0" layoutY="73.0" text="Số điện thoại:" />
+        <Button id="btn_read" fx:id="btnRead" layoutX="230.0" layoutY="151.0" mnemonicParsing="false" onAction="#readInformation" text="Read Information" />
+    </children>
+</AnchorPane>
